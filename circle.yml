@@ -6,5 +6,3 @@ dependencies:
 test:
   override:
     - gulp test
-  post:
-    - killall --wait sc  # wait for Sauce Connect to close the tunnel
