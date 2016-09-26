@@ -1,13 +1,13 @@
 exports.config = {
-    services: ['sauce'],
-    user: "Rinkuk123",
-    key: "f3b6bf0a-de49-4256-b82d-0d745202a935",
-    sauceConnect: false,
+    // services: ['sauce'],
+    // user: "Rinkuk123",
+    // key: "f3b6bf0a-de49-4256-b82d-0d745202a935",
+    // sauceConnect: false,
 
-    // services: ['browserstack'],
-    // user: "rinkukumari1",
-    // key: "jYu69R6x4eMQkVmieKpX",
-    // browserstackLocal: false,
+    services: ['browserstack'],
+    user: "rinkukumari1",
+    key: "jYu69R6x4eMQkVmieKpX",
+    browserstackLocal: false,
 
 
     //
