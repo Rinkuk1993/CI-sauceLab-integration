@@ -55,9 +55,6 @@ exports.config = {
         maxInstances: 5,
         //
         browserName: 'chrome',
-
-        project: 'BrowserStackCI',
-        version: '1.0',
         'browserstack.debug': 'true'
     }],
     //
