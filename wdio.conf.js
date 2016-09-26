@@ -7,7 +7,7 @@ exports.config = {
     services: ['browserstack'],
     user: "rinkukumari1",
     key: "jYu69R6x4eMQkVmieKpX",
-    browserstackLocal: true,
+    browserstackLocal: false,
 
 
     //
@@ -54,7 +54,11 @@ exports.config = {
         // 5 instance gets started at a time.
         maxInstances: 5,
         //
-        browserName: 'chrome'
+        browserName: 'chrome',
+
+        project: 'BrowserStackCI',
+        version: '1.0',
+        'browserstack.debug': 'true'
     }],
     //
     // ===================
