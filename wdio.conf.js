@@ -7,7 +7,7 @@ exports.config = {
     services: ['browserstack'],
     user: "rinkukumari1",
     key: "jYu69R6x4eMQkVmieKpX",
-    browserstackLocal: false,
+    browserstackLocal: true,
 
 
     //
@@ -124,7 +124,7 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: http://webdriver.io/guide/testrunner/reporters.html
-    reporters: ['dot'],
+    reporters: ['spec'],
     
     //
     // Options to be passed to Jasmine.

@@ -4,7 +4,7 @@ describe('DuckDuckGo search', function() {
         browser.setValue('#search_form_input_homepage', 'WebdriverIO');
         browser.click('#search_button_homepage');
         var title = browser.getTitle();
-        console.log('Title is: ' + title);
+        // console.log('Title is: ' + title);
         // outputs: "Title is: WebdriverIO (Software) at DuckDuckGo"
     });
 });
