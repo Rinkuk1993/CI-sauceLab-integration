@@ -4,11 +4,10 @@ exports.config = {
     // key: "f3b6bf0a-de49-4256-b82d-0d745202a935",
     // sauceConnect: false,
 
-    services: ['browserstack'],
-    user: "rinkukumari1",
-    key: "jYu69R6x4eMQkVmieKpX",
-    browserstackLocal: false,
-
+    // services: ['browserstack'],
+    // user: "rinkukumari1",
+    // key: "jYu69R6x4eMQkVmieKpX",
+    // browserstackLocal: false,
 
     //
     // ==================
@@ -20,7 +19,7 @@ exports.config = {
     // directory is where your package.json resides, so `wdio` will be called from there.
     //
     specs: [
-        './test/specs/**/*.js'
+        './test/specs/ui/*.js'
     ],
     // Patterns to exclude.
     exclude: [
@@ -54,8 +53,7 @@ exports.config = {
         // 5 instance gets started at a time.
         maxInstances: 5,
         //
-        browserName: 'chrome',
-        'browserstack.debug': 'true'
+        browserName: 'chrome'
     }],
     //
     // ===================
@@ -113,7 +111,8 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    // services: [],//
+    services: ['phantomjs'],
+    //
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
     // see also: http://webdriver.io/guide/testrunner/frameworks.html

@@ -4,7 +4,7 @@
   "description": "",
   "main": "./test/specs/",
   "scripts": {
-    "test": "gulp test"
+    "test": "grunt shell:testall"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +13,9 @@
     "colors": "^1.1.2",
     "del": "^1.2.0",
     "es6-promise": "^3.1.2",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jasmine": "^1.0.3",
+    "grunt-shell-spawn": "^0.3.10",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
     "gulp-coveralls": "^0.1.4",
@@ -44,6 +47,7 @@
     "vinyl-source-stream": "^1.1.0",
     "wdio-browserstack-service": "^0.1.3",
     "wdio-jasmine-framework": "^0.2.6",
+    "wdio-phantomjs-service": "^0.1.0",
     "wdio-sauce-service": "^0.2.5",
     "wdio-spec-reporter": "0.0.3"
   }
